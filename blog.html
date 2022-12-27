@@ -10,6 +10,9 @@
     <!-- SKIP LINK -->
     <a href="mainContent" class="skipLink">Skip to main content.</a>
     
+    <!-- MAIN CONTENT -->
+    <main id="mainContent">
+
     <!-- NAV BAR -->
     <nav class="navBar">
         <!-- CONTENT WRAPPER -->
@@ -45,17 +48,115 @@
 
     <!-- FAVOURITE TRAVEL DESTINATIONS SECTION -->
     <section>
-        <h2>MY FAVOURITE TRAVEL DESTINATIONS</h2>
+        <div class="wrapper destinationsSection">
+            <div class="destinations">
+                <h2>MY FAVOURITE TRAVEL DESTINATIONS</h2>
+                <p>Monday October 8th, 2018 by Harper</p>
+                <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue
+                enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit
+                amet risus. Nam tempus vel odio vitae aliquam.
 
-    </section>
+                In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante
+                venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien
+                convallis eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet
+                blandit dolor mollis nec. Donec viverra eleifend lacu.
+                
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut
+                eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed
+                sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget
+                semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl
+                hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce
+                porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris
+                venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.
+                Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at
+                mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.
+                Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+                Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae
+                aliquam.
 
+                In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante
+                venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien
+                convallis eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet
+                blandit dolor mollis nec. Donec viverra eleifend lacu.
+                Name
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut
+                eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed
+                sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget
+                semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl
+                hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce
+                porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris
+                venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.
+                Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at
+                mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.</p>
+            </div>
+        </div> <!-- WRAPPER END-->
+    </section> 
+
+    <!-- ASIDE SECTION -->
     <aside>
-        <h4>ABOUT HARPER</h4>
+        <div class="wrapper Aside">
+            <div class="aboutHarper">
+                <img src="./assets/blog-image-2.jpg" alt="Woman in pink sweater reclining and relaxing">
+                <h4>ABOUT HARPER</h4>
+                <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
+            </div>
+
+            <div class="recents">
+                <h4>RECENT POSTS</h4>
+                <ul>
+                    <li>Donec facilisis tortor ut</li>
+                    <li>Augue lacinia at viverra</li>
+                    <li>Semper sed sapien metus</li>
+                    <li>Sclerisque nec pharetra id</li>
+                </ul>
+            </div>
+        </div> <!-- WRAPPER END-->
     </aside>
 
+    <!-- BLOG POSTS SECTION -->
 
+    <section class="blogPosts">
+        <div class="wrapper Blog">
+            <div class="flexContainer1">
+                <img src="./assets/blog-image-3.jpg" alt="Profile headshot of woman with brown, long bangs half-covering her right eye">
+                <p>Tuesday October 9th, 2018 by Maggie</p>
+                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
+                eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc
+                sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus,
+                eu aliquet arcu.</p>
+            </div>
 
-    
-    
+            <div class="flexContainer2">
+                <img src="./assets/blog-image-4.jpg" alt="Profile headshot of blonde-haired woman blowing pink bubblegum">
+                <p>Wednesday October 10th, 2018 by Maggie</p>
+                <p>onec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum
+                quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu
+                varius risus, eu aliquet arcu.</p>
+            </div>
+        </div> <!-- WRAPPER ENDS -->
+    </section>
+
+    <form action="" class="commentForm" name="commentForm">
+        <div class="wrapper commentForm">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" id="name" placeholder="Name">
+
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" placeholder="Email address">
+
+            <label for="message" class="sr-only">Comment</label>
+            <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+            
+            <button type="submit">POST COMMENT</button>
+        </div> <!-- WRAPPER ENDS-->
+    </form>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>Copyright © 2018 Hacker You</p>
+    </footer>
+ 
 </body>
 </html>
