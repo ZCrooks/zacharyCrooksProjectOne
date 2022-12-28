@@ -1,3 +1,5 @@
+// BASE TYPOGRAPHY
+
 html {
     font-size: 125%;
 }
@@ -44,4 +46,29 @@ nav {
     letter-spacing: 1px;
 }
 
+ul {
+    list-style: none;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+// Icon Styling
+.Icons {
+    i {
+        color: $duskblue;  
+    }
+}
+
+.PhotoBlog, .AboutContact {
+    i {
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 0.4em;
+        background-color: $secondary;
+    }
+}
