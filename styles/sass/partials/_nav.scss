@@ -1,0 +1,16 @@
+.skipLink {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: $quinary;
+    color: $primary;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    left: -100%;
+
+    &:focus {
+        left: 0;
+    }
+}

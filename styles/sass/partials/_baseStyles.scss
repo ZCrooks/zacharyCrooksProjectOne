@@ -1,0 +1,62 @@
+// WRAPPER
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+// BUTTON STYLING (FORMS)
+button {
+    background-color: $quaternary;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transform: 0.4s;
+    &:hover {
+        background-color: $primary;
+        color: white;
+    }
+    &:focus {
+        background-color: $primary;
+        color: white;
+    }
+}
+
+// a BUTTON STYLING
+a {
+    &.button {
+        background-color: $quaternary;
+        padding: 5px 25px;
+        text-align: center;
+        transition: 0.3s;
+        border: 1px solid $primary;
+        &:hover {
+            background-color: $secondary;
+        }
+        &:focus {
+            background-color: $secondary;
+        }
+    }
+
+// a NAV BAR 'SELECTED STYLING
+    &.selected {
+        color: $tertiary;
+    }
+}
+
+// Icon Styling
+.Icons {
+    i {
+        color: $duskblue;
+    }
+}
+
+.PhotoBlog,
+.AboutContact {
+    i {
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 0.4em;
+        background-color: $secondary;
+    }
+}

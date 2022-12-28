@@ -284,13 +284,75 @@ a {
   transition: 0.4s;
 }
 
+.logo {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #f38d8d;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: 0.4s;
+          transform: 0.4s;
+}
+button:hover {
+  background-color: #171717;
+  color: white;
+}
+button:focus {
+  background-color: #171717;
+  color: white;
+}
+
+a.button {
+  background-color: #f38d8d;
+  padding: 5px 25px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #171717;
+}
+a.button:hover {
+  background-color: #b9dde7;
+}
+a.button:focus {
+  background-color: #b9dde7;
+}
+a.selected {
+  color: #f6f6f6;
+}
+
 .Icons i {
   color: #227284;
 }
 
-.PhotoBlog i, .AboutContact i {
+.PhotoBlog i,
+.AboutContact i {
   border: 1px solid black;
   border-radius: 50%;
   padding: 0.4em;
   background-color: #b9dde7;
+}
+
+.skipLink {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #68b0c1;
+  color: #171717;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  left: -100%;
+}
+.skipLink:focus {
+  left: 0;
 }
