@@ -1,0 +1,41 @@
+// HOME PAGE - SECTION STYLING
+.whosHarper .wrapper {
+    background-color: $tertiary;
+    padding: 50px;
+}
+
+.PhotoAbout, .BlogContact {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: $tertiary;
+    .wrap {
+        display: flex;
+    }
+}
+
+.travels .wrapper {
+    background-color: white;
+}
+
+.Travels, .Favourites  {
+    display: flex;
+    padding: 30px 20px;
+}
+
+.Travels {
+    .imgContainer {
+        background-color: $duskblue;
+    }
+}
+
+.Favourites {
+    .imgContainer {
+        background-color: $quinary;
+        
+    }
+}
+
+.journey .wrapper {
+    background-color: $tertiary;
+}

@@ -333,8 +333,8 @@ a.selected {
   color: #227284;
 }
 
-.PhotoBlog i,
-.AboutContact i {
+.PhotoAbout i,
+.BlogContact i {
   border: 1px solid black;
   border-radius: 50%;
   padding: 0.4em;
@@ -416,4 +416,48 @@ header .flexContainer {
   position: relative;
   bottom: 60px;
   right: 120px;
+}
+
+.whosHarper .wrapper {
+  background-color: #f6f6f6;
+  padding: 50px;
+}
+
+.PhotoAbout, .BlogContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+  background-color: #f6f6f6;
+}
+.PhotoAbout .wrap, .BlogContact .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.travels .wrapper {
+  background-color: white;
+}
+
+.Travels, .Favourites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 20px;
+}
+
+.Travels .imgContainer {
+  background-color: #227284;
+}
+
+.Favourites .imgContainer {
+  background-color: #68b0c1;
+}
+
+.journey .wrapper {
+  background-color: #f6f6f6;
 }
