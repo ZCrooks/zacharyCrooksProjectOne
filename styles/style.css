@@ -418,6 +418,13 @@ header .flexContainer {
   right: 120px;
 }
 
+.blog .wrapper {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
 .whosHarper .wrapper {
   background-color: #f6f6f6;
   padding: 50px;
@@ -495,5 +502,5 @@ footer {
   background-color: #171717;
   color: #f6f6f6;
   text-align: center;
-  margin: 5px;
+  margin-top: 5px;
 }
