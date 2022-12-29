@@ -32,10 +32,43 @@
 .Favourites {
     .imgContainer {
         background-color: $quinary;
-        
     }
 }
 
 .journey .wrapper {
     background-color: $tertiary;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    .Writeup {
+        width: 75%;
+        margin-left: 40px;
+    }
+    .imgContainer {
+        background-color: $duskblue;
+        height: 50%;
+        img {
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+} 
+
+.gallery {
+    ul {
+        display: flex;
+        li {
+            margin-right: 20px;
+        }
+    }
+}
+
+// FOOTER STYLES
+
+footer {
+    background-color: $primary;
+    color: $tertiary;
+    text-align: center;
+    margin: 5px;
 }

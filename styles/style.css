@@ -460,4 +460,40 @@ header .flexContainer {
 
 .journey .wrapper {
   background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.journey .wrapper .Writeup {
+  width: 75%;
+  margin-left: 40px;
+}
+.journey .wrapper .imgContainer {
+  background-color: #227284;
+  height: 50%;
+}
+.journey .wrapper .imgContainer img {
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery ul li {
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #171717;
+  color: #f6f6f6;
+  text-align: center;
+  margin: 5px;
 }
