@@ -14,3 +14,17 @@
         left: 0;
     }
 }
+
+// NAV BAR STYLING
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: $secondary;
+  li {
+    cursor: pointer;
+    transform: 0.3s;
+    &:hover {
+    color: $tertiary;
+    } 
+    }
+}

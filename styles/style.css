@@ -356,3 +356,20 @@ a.selected {
 .skipLink:focus {
   left: 0;
 }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #b9dde7;
+}
+.menu li {
+  cursor: pointer;
+  -webkit-transform: 0.3s;
+          transform: 0.3s;
+}
+.menu li:hover {
+  color: #f6f6f6;
+}
