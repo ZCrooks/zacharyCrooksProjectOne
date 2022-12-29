@@ -1,1 +1,35 @@
-// HEADER STYLING
+// HOME PAGE HEADER STYLING
+.home .wrapper {
+    background-color: $secondary;
+}
+
+header .imgContainer {
+    background-color: white;
+    position: relative;
+    left: 80px;
+    top: 30px;
+    img {
+        height: 450px;
+        width: 350px;
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+header .flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.mainTitle {
+    display: flex;
+}
+
+.logoAddOn {
+    position: relative;
+    bottom: 60px;
+    right: 120px;
+}
