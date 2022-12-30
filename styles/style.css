@@ -431,6 +431,17 @@ header .flexContainer {
   top: 70%;
 }
 
+.contact .wrapper {
+  background-image: url(../../../assets/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+.contact .wrapper h1 {
+  position: relative;
+  top: 80%;
+}
+
 .whosHarper .wrapper {
   background-color: #f6f6f6;
   padding: 50px;
@@ -505,7 +516,7 @@ header .flexContainer {
 }
 
 .blogHTML {
-  background: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 .destinationSection {
@@ -576,6 +587,55 @@ header .flexContainer {
   width: 50%;
 }
 .commentForm #name {
+  margin-right: 10px;
+}
+
+.contactHTML {
+  background-color: #f6f6f6;
+}
+
+.contactPage {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactPage .contactAside {
+  background-color: white;
+  padding: 30px;
+  position: relative;
+  left: 50px;
+}
+.contactPage .contactAside i {
+  margin-right: 10px;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+.contactForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+.contactForm #name, .contactForm #email {
+  width: 50%;
+}
+.contactForm #name {
   margin-right: 10px;
 }
 
