@@ -290,7 +290,7 @@ a {
 
 .wrapper {
   width: 95%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -359,6 +359,7 @@ a.selected {
 
 .menu {
   padding-top: 10px;
+  padding-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,8 +422,13 @@ header .flexContainer {
 .blog .wrapper {
   background-image: url(../assets/blog-image-1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+}
+.blog .wrapper h1 {
+  position: relative;
+  top: 70%;
 }
 
 .whosHarper .wrapper {
@@ -496,6 +502,81 @@ header .flexContainer {
 }
 .gallery ul li {
   margin-right: 20px;
+}
+
+.blogHTML {
+  background: #f6f6f6;
+}
+
+.destinationSection {
+  margin-top: 50px;
+}
+
+.destinations, .aboutHarper, .recents, .flexContainer1, .flexContainer2 {
+  background-color: white;
+}
+
+.Aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Aside .destinations {
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.aboutHarper, .recents {
+  padding: 20px 20px 0;
+  width: 125%;
+}
+.aboutHarper li, .recents li {
+  list-style: disc;
+}
+
+.flexContainer1, .flexContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flexContainer1 div, .flexContainer2 div {
+  margin-left: 15px;
+}
+.flexContainer1 img, .flexContainer2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.commentForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 10px;
+}
+.commentForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+.commentForm #name, .commentForm #email {
+  width: 50%;
+}
+.commentForm #name {
+  margin-right: 10px;
 }
 
 footer {

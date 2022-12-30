@@ -64,6 +64,65 @@
     }
 }
 
+// BLOG PAGE STYLING
+.blogHTML {
+    background: $tertiary;
+}
+.destinationSection{
+    margin-top: 50px;
+}
+.destinations, .aboutHarper, .recents, .flexContainer1, .flexContainer2 {
+    background-color: white;
+} 
+
+.Aside {
+    display: flex;
+    .destinations {
+        margin-left: 50px;
+        padding: 20px;
+    }
+}
+
+.aboutHarper, .recents {
+    padding: 20px 20px 0;
+    width: 125%;
+    li {
+        list-style: disc;
+    }
+}
+
+.flexContainer1, .flexContainer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    div {
+        margin-left: 15px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.commentForm {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10px;
+    div {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    #name, #email {
+        width: 50%;
+    }
+    #name {
+        margin-right: 10px;
+    }
+}
 // FOOTER STYLING
 
 footer {
