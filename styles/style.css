@@ -446,6 +446,9 @@ header .flexContainer {
   background-color: #f6f6f6;
   padding: 50px;
 }
+.whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
+  margin-left: 50%;
+}
 
 .PhotoAbout, .BlogContact {
   display: -webkit-box;

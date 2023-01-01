@@ -2,6 +2,9 @@
 .whosHarper .wrapper {
     background-color: $tertiary;
     padding: 50px;
+    h2, p, a {
+        margin-left: 50%;
+    }
 }
 
 .PhotoAbout, .BlogContact {
