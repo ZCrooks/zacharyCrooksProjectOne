@@ -680,3 +680,97 @@ footer {
   text-align: center;
   margin-top: 5px;
 }
+
+@media (max-width: 940px) {
+  .home .wrapper h1 {
+    font-size: 3rem;
+  }
+  .mainTitle {
+    position: relative;
+    left: 14%;
+  }
+}
+@media (max-width: 480px) {
+  .home .flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    right: 15%;
+  }
+  .home .flexContainer .mainTitle {
+    position: relative;
+    top: 50px;
+    text-align: center;
+  }
+  .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
+    margin: 0 auto;
+  }
+  .PhotoAbout, .BlogContact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5px 5px;
+  }
+  .Travels {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Travels .flexTravels {
+    width: 100%;
+  }
+  .Favourites {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Favourites .flexFavourites {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .journey .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .gallery ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery ul li {
+    margin-top: 10px;
+  }
+}
