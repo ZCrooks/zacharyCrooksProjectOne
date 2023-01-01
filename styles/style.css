@@ -425,10 +425,11 @@ header .flexContainer {
   background-size: cover;
   background-position: center;
   height: 25vh;
+  padding-bottom: 50px;
 }
 .blog .wrapper h1 {
   position: relative;
-  top: 70%;
+  top: 90%;
 }
 
 .contact .wrapper {
@@ -560,13 +561,14 @@ header .flexContainer {
   display: flex;
 }
 .Aside .destinations {
-  margin-left: 50px;
+  margin-left: 10%;
   padding: 20px;
 }
 
 .aboutHarper, .recents {
   padding: 20px 20px 0;
   width: 125%;
+  margin-left: 10%;
 }
 .aboutHarper li, .recents li {
   list-style: disc;
@@ -583,6 +585,8 @@ header .flexContainer {
           align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 23.5%;
+  width: 76.5%;
 }
 .flexContainer1 div, .flexContainer2 div {
   margin-left: 15px;
@@ -604,6 +608,10 @@ header .flexContainer {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-top: 10px;
+}
+.commentForm .wrapper {
+  margin-left: 31.5%;
+  width: 53%;
 }
 .commentForm div {
   display: -webkit-box;
