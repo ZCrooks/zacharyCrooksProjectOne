@@ -23,18 +23,43 @@
 
 .Travels, .Favourites  {
     display: flex;
-    padding: 30px 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .Travels {
+    .flexTravels {
+        width: 40%;
+        margin-left: 20px;
+    }
     .imgContainer {
         background-color: $duskblue;
+        width: 60%;
+        img {
+            position: relative;
+            width: 95%;
+            left: 4%;
+            bottom: 30px;
+        }
     }
 }
 
 .Favourites {
+    .flexFavourites {
+        width: 40%;
+        margin-right: 20px;
+    }
     .imgContainer {
         background-color: $quinary;
+        width: 60%;
+        margin-left: 20px;
+        img {
+            position: relative;
+            width: 95%;
+            right: 3%;
+            bottom: 30px;
+            }
     }
 }
 
@@ -107,6 +132,7 @@
     img {
         width: 100px;
         height: 100px;
+        margin: 20px;
     }
 }
 
@@ -161,8 +187,7 @@
     }
     #name {
         margin-right: 10px;
-    }
-   
+    }  
 }
 
 // FOOTER STYLING

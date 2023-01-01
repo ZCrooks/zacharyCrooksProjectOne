@@ -299,8 +299,8 @@ button {
   width: 100%;
   text-align: center;
   cursor: pointer;
-  -webkit-transform: 0.4s;
-          transform: 0.4s;
+  -webkit-transform: 0.3s;
+          transform: 0.3s;
 }
 button:hover {
   background-color: #171717;
@@ -474,15 +474,39 @@ header .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
+.Travels .flexTravels {
+  width: 40%;
+  margin-left: 20px;
+}
 .Travels .imgContainer {
   background-color: #227284;
+  width: 60%;
+}
+.Travels .imgContainer img {
+  position: relative;
+  width: 95%;
+  left: 4%;
+  bottom: 30px;
 }
 
+.Favourites .flexFavourites {
+  width: 40%;
+  margin-right: 20px;
+}
 .Favourites .imgContainer {
   background-color: #68b0c1;
+  width: 60%;
+  margin-left: 20px;
+}
+.Favourites .imgContainer img {
+  position: relative;
+  width: 95%;
+  right: 3%;
+  bottom: 30px;
 }
 
 .journey .wrapper {
@@ -566,6 +590,7 @@ header .flexContainer {
 .flexContainer1 img, .flexContainer2 img {
   width: 100px;
   height: 100px;
+  margin: 20px;
 }
 
 .commentForm {
