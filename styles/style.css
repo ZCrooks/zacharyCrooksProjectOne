@@ -740,7 +740,22 @@ footer {
   }
   .contact .Header h1 {
     position: inherit;
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+  .Aside {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Aside div {
+    width: 75%;
+  }
+  .flexContainer1, .flexContainer2 {
+    margin-left: 17%;
   }
 }
 @media (max-width: 480px) {
@@ -802,5 +817,12 @@ footer {
   }
   .gallery ul li {
     margin-top: 10px;
+  }
+  .blog .headerContent {
+    text-align: center;
+    height: 15vh;
+  }
+  .blog .headerContent h1 {
+    font-size: 3.5rem;
   }
 }

@@ -1,5 +1,6 @@
 // PORTRAIT TABLET AND SMALL DESKTOPS
 @media (max-width: 940px) {
+    // HOME PAGE
     .home .wrapper  h1 {
         font-size: 3rem;
     }
@@ -7,6 +8,8 @@
         position: relative;
         left: 14%;
     }
+
+    // CONTACT PAGE
     .contact .Header {
         text-align: center;
     }
@@ -23,6 +26,7 @@
 
 // LANDSCAPE PHONE TO PORTRAIT TABLET
 @media (max-width: 768px) {    
+    // HOME PAGE
     .home .flexContainer {
         display: flex;
         flex-direction: column;
@@ -44,8 +48,21 @@
         height: 20vh;
         h1 {
             position: inherit;
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
+    }
+
+    // BLOG PAGE 
+    .Aside {
+        flex-direction: column;
+        align-items: center;
+        div {
+            width: 75%;
+        }
+    }
+
+    .flexContainer1, .flexContainer2 {
+        margin-left: 17%;
     }
 }
 
@@ -85,6 +102,15 @@
         align-items: center;
         li{
             margin-top: 10px;            
+        }
+    }
+
+    // BLOG PAGE
+    .blog .headerContent {
+        text-align: center;
+        height: 15vh;
+        h1 {
+            font-size: 3.5rem;
         }
     }
 }
