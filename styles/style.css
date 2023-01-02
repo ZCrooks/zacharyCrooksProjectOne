@@ -722,6 +722,7 @@ footer {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    height: 90vh;
   }
   .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
     margin: 0 auto;

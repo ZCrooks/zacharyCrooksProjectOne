@@ -1,7 +1,8 @@
 // PORTRAIT TABLET AND SMALL DESKTOPS
 @media (max-width: 940px) {
     // HOME PAGE
-    .home .wrapper  h1 {
+    .home .wrapper 
+    h1 {
         font-size: 3rem;
     }
     .mainTitle {
@@ -26,11 +27,13 @@
 
 // LANDSCAPE PHONE TO PORTRAIT TABLET
 @media (max-width: 768px) {    
+
     // HOME PAGE
     .home .flexContainer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        height: 90vh;
     }
 
     .whosHarper .wrapper {
@@ -68,6 +71,7 @@
 
 // LANDSCAPE PHONES AND DOWN
 @media (max-width: 480px) {
+    
     // HOME PAGE
     .menu {
         flex-direction: column;
