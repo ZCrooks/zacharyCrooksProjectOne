@@ -689,8 +689,27 @@ footer {
     position: relative;
     left: 14%;
   }
+  .contact .Header {
+    text-align: center;
+  }
+  .contactPage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .contactPage .box {
+    margin-bottom: 25px;
+  }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .home .flexContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -699,16 +718,9 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: relative;
-    right: 15%;
-  }
-  .home .flexContainer .mainTitle {
-    position: relative;
-    top: 50px;
-    text-align: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
     margin: 0 auto;
@@ -722,6 +734,24 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 5px 5px;
+  }
+  .contact .Header {
+    height: 20vh;
+  }
+  .contact .Header h1 {
+    position: inherit;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 480px) {
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .Travels {
     -webkit-box-orient: vertical;

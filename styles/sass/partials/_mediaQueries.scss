@@ -7,42 +7,55 @@
         position: relative;
         left: 14%;
     }
+    .contact .Header {
+        text-align: center;
+    }
+    .contactPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        .box {
+            margin-bottom: 25px;
+        }
+    }
 }
 
 // LANDSCAPE PHONE TO PORTRAIT TABLET
-@media (max-width: 768px) {
-  
-
-}
-
-// LANDSCAPE PHONES AND DOWN
-@media (max-width: 480px) {
-    // HOME PAGE
+@media (max-width: 768px) {    
     .home .flexContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        position: relative;
-        right: 15%;
-        .mainTitle {
-            position: relative;
-            top: 50px;
-            text-align: center;
-        }
+        align-items: flex-start;
     }
 
     .whosHarper .wrapper {
         h2, p, a {
             margin: 0 auto;
         }
-    }
+    }  
 
     .PhotoAbout, .BlogContact {
         display: flex;
         flex-direction: column;
         padding: 5px 5px;
     }
+    .contact .Header {
+        height: 20vh;
+        h1 {
+            position: inherit;
+            font-size: 3rem;
+        }
+    }
+}
 
+// LANDSCAPE PHONES AND DOWN
+@media (max-width: 480px) {
+    // HOME PAGE
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
     .Travels {
         flex-direction: column;
         align-items: center;
