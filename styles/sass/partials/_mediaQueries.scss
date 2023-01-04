@@ -68,7 +68,6 @@
             margin: 0;
         }
     }
-
 }
 
 @media (max-width: 768px) {
@@ -84,6 +83,14 @@
             top: 8%;
         }
     }
+    .journey .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .Writeup {
+            width: 100%;
+            }
+        }
 }
 // LANDSCAPE PHONES AND DOWN
 @media (max-width: 480px) {
@@ -108,15 +115,6 @@
         .flexFavourites {
             width: 100%;
             margin-left: 20px;
-        }
-    }
-
-    .journey .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .Writeup{
-            width: 100%;    
         }
     }
 
