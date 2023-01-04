@@ -611,8 +611,8 @@ header .flexContainer {
   margin-top: 10px;
 }
 .commentForm .wrapper {
-  margin-left: 31.5%;
-  width: 53%;
+  margin-left: 25%;
+  width: 70%;
 }
 .commentForm div {
   display: -webkit-box;
@@ -625,6 +625,12 @@ header .flexContainer {
 }
 .commentForm #name {
   margin-right: 10px;
+}
+
+hr {
+  border: 2px solid #227284;
+  margin-left: 24%;
+  margin-top: 0;
 }
 
 .contactHTML {
@@ -760,6 +766,12 @@ footer {
   }
   .Aside .destinations {
     margin: 0;
+  }
+  .Blog {
+    margin-left: -10%;
+  }
+  .commentForm {
+    margin-left: -20%;
   }
 }
 @media (max-width: 768px) {

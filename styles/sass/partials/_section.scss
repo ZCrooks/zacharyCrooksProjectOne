@@ -145,8 +145,8 @@
     align-content: center;
     margin-top: 10px;
     .wrapper {
-    margin-left: 31.5%;
-    width: 53%;        
+    margin-left: 25%;
+    width: 70%;        
     }
 
     div {
@@ -159,6 +159,12 @@
     #name {
         margin-right: 10px;
     }
+}
+
+hr {
+    border: 2px solid $duskblue;
+    margin-left: 24%;
+    margin-top: 0;
 }
 
 // CONTACT PAGE STYLING 
