@@ -680,15 +680,16 @@ footer {
   color: #f6f6f6;
   text-align: center;
   padding: 1px;
+  margin-top: 20px;
 }
 
 @media (max-width: 940px) {
   .home .wrapper h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .mainTitle {
     position: relative;
-    left: 14%;
+    left: 10%;
   }
   .contact .Header {
     text-align: center;
@@ -710,6 +711,12 @@ footer {
     margin-bottom: 25px;
   }
 }
+@media (min-width: 940px) {
+  .mainTitle {
+    position: relative;
+    left: 10%;
+  }
+}
 @media (max-width: 768px) {
   .home .flexContainer {
     display: -webkit-box;
@@ -722,10 +729,12 @@ footer {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    height: 90vh;
   }
   .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
     margin: 0 auto;
+  }
+  .whosHarper .wrapper p {
+    margin-bottom: 20px;
   }
   .PhotoAbout, .BlogContact {
     display: -webkit-box;
@@ -736,13 +745,6 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 5px 5px;
-  }
-  .contact .Header {
-    height: 20vh;
-  }
-  .contact .Header h1 {
-    position: inherit;
-    font-size: 3.5rem;
   }
   .Aside {
     -webkit-box-orient: vertical;
@@ -756,8 +758,24 @@ footer {
   .Aside div {
     width: 75%;
   }
-  .flexContainer1, .flexContainer2 {
-    margin-left: 17%;
+  .Aside .destinations {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .flexContainer.Header {
+    height: 80vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .flexContainer.Header .imgContainer {
+    position: relative;
+    left: -1%;
+  }
+  .flexContainer.Header .mainTitle {
+    position: relative;
+    top: 8%;
   }
 }
 @media (max-width: 480px) {
@@ -806,6 +824,8 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .journey .wrapper .Writeup {
     width: 100%;
   }
   .gallery ul {
@@ -826,5 +846,9 @@ footer {
   }
   .blog .headerContent h1 {
     font-size: 3.5rem;
+  }
+  .contact .wrapper h1 {
+    position: inherit;
+    padding-top: 30px;
   }
 }
