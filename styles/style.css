@@ -387,7 +387,7 @@ header .imgContainer {
   background-color: white;
   position: relative;
   left: 80px;
-  top: 30px;
+  top: 50px;
 }
 header .imgContainer img {
   height: 450px;
@@ -492,7 +492,7 @@ header .flexContainer {
   position: relative;
   width: 95%;
   left: 4%;
-  bottom: 30px;
+  bottom: 50px;
 }
 
 .Favourites .flexFavourites {
@@ -736,6 +736,35 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .flexContainer.Header {
+    height: 90vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .flexContainer.Header .imgContainer {
+    position: relative;
+    left: -1%;
+  }
+  .flexContainer.Header .mainTitle {
+    position: relative;
+    top: 10%;
+  }
+  .journey .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .journey .wrapper .Writeup {
+    width: 100%;
+  }
   .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
     margin: 0 auto;
   }
@@ -772,37 +801,6 @@ footer {
   }
   .commentForm {
     margin-left: -20%;
-  }
-}
-@media (max-width: 768px) {
-  .flexContainer.Header {
-    height: 80vh;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .flexContainer.Header .imgContainer {
-    position: relative;
-    left: -1%;
-  }
-  .flexContainer.Header .mainTitle {
-    position: relative;
-    top: 8%;
-  }
-  .journey .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .journey .wrapper .Writeup {
-    width: 100%;
   }
 }
 @media (max-width: 480px) {
