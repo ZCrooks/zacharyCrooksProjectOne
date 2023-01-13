@@ -358,6 +358,10 @@ a.selected {
   left: 0;
 }
 
+.navBar {
+  background-color: #b9dde7;
+}
+
 .menu {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -367,7 +371,6 @@ a.selected {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-color: #b9dde7;
   margin: 0 auto;
 }
 .menu li {
@@ -377,6 +380,10 @@ a.selected {
 }
 .menu li:hover {
   color: #f6f6f6;
+}
+
+.home {
+  background-color: #b9dde7;
 }
 
 .home .wrapper {
@@ -421,10 +428,6 @@ header .flexContainer {
 }
 
 .blog .wrapper {
-  background-image: url(../assets/blog-image-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 25vh;
   padding-bottom: 50px;
 }
@@ -433,10 +436,14 @@ header .flexContainer {
   top: 90%;
 }
 
-.contact .wrapper {
-  background-image: url(../assets/contact-image-1.jpg);
+.blog {
+  background-image: url(../assets/blog-image-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.contact .wrapper {
   height: 40vh;
 }
 .contact .wrapper h1 {
@@ -444,12 +451,21 @@ header .flexContainer {
   top: 80%;
 }
 
+.contact {
+  background-image: url(../assets/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .whosHarper .wrapper {
-  background-color: #f6f6f6;
   padding: 50px;
 }
 .whosHarper .wrapper h2, .whosHarper .wrapper p, .whosHarper .wrapper a {
   margin-left: 50%;
+}
+
+.whosHarper {
+  background-color: #f6f6f6;
 }
 
 .PhotoAbout, .BlogContact {
@@ -495,6 +511,10 @@ header .flexContainer {
   bottom: 50px;
 }
 
+.about {
+  background-color: #f6f6f6;
+}
+
 .Favourites .flexFavourites {
   width: 40%;
   margin-right: 20px;
@@ -533,6 +553,10 @@ header .flexContainer {
   position: relative;
   bottom: 10px;
   right: 10px;
+}
+
+.journey {
+  background-color: #f6f6f6;
 }
 
 .gallery ul {

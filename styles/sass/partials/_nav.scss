@@ -16,12 +16,14 @@
 }
 
 // NAV BAR STYLING
+.navBar {
+    background-color: $secondary;
+}
 .menu {
   padding-top: 10px;
   padding-bottom: 5px;
   display: flex;
   justify-content: space-evenly;
-  background-color: $secondary;
   margin: 0 auto;
   li {
     cursor: pointer;

@@ -1,4 +1,9 @@
 // HOME PAGE HEADER STYLING
+
+.home {
+    background-color: $secondary;
+}
+
 .home .wrapper {
     background-color: $secondary;
 }
@@ -37,10 +42,6 @@ header .flexContainer {
 
 // BLOG PAGE HEADER STYLING
 .blog .wrapper {
-    background-image: url(../assets/blog-image-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 25vh;
     padding-bottom: 50px;
     h1 {
@@ -49,14 +50,24 @@ header .flexContainer {
     }
 }
 
-// CONTACT PAGE HEADER STYLING
-.contact .wrapper {
-    background-image: url(../assets/contact-image-1.jpg);
+.blog {
+    background-image: url(../assets/blog-image-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+// CONTACT PAGE HEADER STYLING
+.contact .wrapper {
     height: 40vh;
     h1 {
         position: relative;
         top: 80%;
     }
+}
+
+.contact {
+        background-image: url(../assets/contact-image-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }

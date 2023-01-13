@@ -1,10 +1,13 @@
 // HOME PAGE - SECTION STYLING
 .whosHarper .wrapper {
-    background-color: $tertiary;
     padding: 50px;
     h2, p, a {
         margin-left: 50%;
     }
+}
+
+.whosHarper {
+    background-color: $tertiary;
 }
 
 .PhotoAbout, .BlogContact {
@@ -45,6 +48,10 @@
     }
 }
 
+.about {
+    background-color: $tertiary;
+}
+
 .Favourites {
     .flexFavourites {
         width: 40%;
@@ -83,6 +90,10 @@
     }
 } 
 
+.journey {
+    background-color: $tertiary;
+}
+
 .gallery {
     ul {
         display: flex;
@@ -96,6 +107,7 @@
 .blogHTML {
     background-color: $tertiary;
 }
+
 .destinationSection{
     margin-top: 50px;
 }
