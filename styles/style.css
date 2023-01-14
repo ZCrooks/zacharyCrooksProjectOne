@@ -691,6 +691,7 @@ hr {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 80%;
+  height: 400px;
 }
 .contactForm div {
   display: -webkit-box;
