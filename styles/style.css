@@ -433,7 +433,7 @@ header .flexContainer {
 }
 .blog .wrapper h1 {
   position: relative;
-  top: 90%;
+  top: 175%;
 }
 
 .blog {
@@ -441,6 +441,7 @@ header .flexContainer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 40vh;
 }
 
 .contact .wrapper {
