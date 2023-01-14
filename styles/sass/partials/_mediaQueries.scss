@@ -70,7 +70,22 @@
             margin-bottom: 20px;
         }
     }  
+    .Travels {
+        flex-direction: column;
+        align-items: center;
+        .flexTravels {
+            width: 100%;
+        }
+    }
 
+    .Favourites {
+        flex-direction: column-reverse;
+        align-items: center;
+        .flexFavourites {
+            width: 100%;
+            margin-left: 20px;
+        }
+    }
     .PhotoAbout, .BlogContact {
         display: flex;
         flex-direction: column;
@@ -104,22 +119,7 @@
         align-items: center;
     }
 
-    .Travels {
-        flex-direction: column;
-        align-items: center;
-        .flexTravels {
-            width: 100%;
-        }
-    }
 
-    .Favourites {
-        flex-direction: column-reverse;
-        align-items: center;
-        .flexFavourites {
-            width: 100%;
-            margin-left: 20px;
-        }
-    }
 
     .gallery ul {
         flex-direction: column;

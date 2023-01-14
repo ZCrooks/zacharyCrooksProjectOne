@@ -796,6 +796,31 @@ footer {
   .whosHarper .wrapper p {
     margin-bottom: 20px;
   }
+  .Travels {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Travels .flexTravels {
+    width: 100%;
+  }
+  .Favourites {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Favourites .flexFavourites {
+    width: 100%;
+    margin-left: 20px;
+  }
   .PhotoAbout, .BlogContact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -837,31 +862,6 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .Travels {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Travels .flexTravels {
-    width: 100%;
-  }
-  .Favourites {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Favourites .flexFavourites {
-    width: 100%;
-    margin-left: 20px;
   }
   .gallery ul {
     -webkit-box-orient: vertical;
