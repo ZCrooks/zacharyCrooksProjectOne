@@ -132,6 +132,10 @@
     }
 }
 
+.destinations, .flexContainer2{
+    border-bottom: 5px solid $duskblue;;
+}
+
 .flexContainer1, .flexContainer2 {
     display: flex;
     justify-content: space-around;
@@ -170,12 +174,6 @@
     #name {
         margin-right: 10px;
     }
-}
-
-hr {
-    border: 2px solid $duskblue;
-    margin-left: 24%;
-    margin-top: 0;
 }
 
 // CONTACT PAGE STYLING 
