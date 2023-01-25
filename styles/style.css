@@ -497,6 +497,11 @@ header .flexContainer {
   margin-bottom: 20px;
 }
 
+.Travels {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .Travels .flexTravels {
   width: 40%;
   margin-left: 20px;
