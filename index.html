@@ -20,12 +20,6 @@
     <!-- SKIP LINK -->
     <a href="mainContent" class="skipLink">Skip to main content.</a>
 
-    <!-- POPUP -->
-    <div class="popup" id="popup">
-        <h2>Style and Vibe</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque error totam blanditiis dolorem laborum vero eaque cum, veniam aliquid ipsa perspiciatis repellat facere, suscipit in.</p>
-        <img src="./designs/harper-home-popup.jpg" alt="Pink sunset view of a tropical beach with palm trees in the foreground">
-    </div>
 
     <!-- NAV BAR -->
     <nav class="navBar">
@@ -70,6 +64,23 @@
 
     <!-- MAIN CONTENT -->
     <main id="mainContent">
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <button id="close" class="close">&times;</button>
+        <div>
+            <h3>Style and Vibe</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nobis quisquam tempora praesentium tempore minima totam, omnis reprehenderit optio repellendus.</p>
+        </div>
+        <div class="signup">
+            <form action="subscription">
+                <input type="image" src="./designs/harper-home-popup.jpg">
+                <label for="email" class="sr-only">Name</label>
+                <input type="email" id="email" placeholder="E-Mail Address">
+                <button class="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
 
         <!-- WHO'S HARPER SECTION -->
         <section class="whosHarper">
