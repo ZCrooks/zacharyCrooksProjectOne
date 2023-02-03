@@ -46,16 +46,18 @@ a {
 
 // Icon Styling
 .Icons {
-    i {
+    i, a {
         color: $duskblue;
     }
 }
+
+
 
 .PhotoAbout,
 .BlogContact {
     i {
         border: 1px solid black;
-        border-radius: 50%;
+        border-radius: 30%;
         padding: 0.4em;
         background-color: $secondary;
         margin-right: 20px;

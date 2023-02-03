@@ -329,14 +329,14 @@ a.selected {
   color: #f6f6f6;
 }
 
-.Icons i {
+.Icons i, .Icons a {
   color: #227284;
 }
 
 .PhotoAbout i,
 .BlogContact i {
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 30%;
   padding: 0.4em;
   background-color: #b9dde7;
   margin-right: 20px;
@@ -582,7 +582,7 @@ header .flexContainer {
   margin-top: 50px;
 }
 
-.destinations, .aboutHarper, .recents, .flexContainer1, .flexContainer2 {
+article, .aboutHarper, .recents {
   background-color: white;
 }
 
@@ -605,7 +605,7 @@ header .flexContainer {
   list-style: disc;
 }
 
-.destinations, .flexContainer2 {
+article {
   border-bottom: 5px solid #227284;
 }
 
@@ -684,6 +684,20 @@ header .flexContainer {
 }
 .contactPage .box i {
   margin-right: 10px;
+}
+
+.contactBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+.contactBox span {
+  display: block;
 }
 
 .contactForm {

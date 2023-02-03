@@ -112,7 +112,7 @@
 .destinationSection{
     margin-top: 50px;
 }
-.destinations, .aboutHarper, .recents, .flexContainer1, .flexContainer2 {
+article, .aboutHarper, .recents {
     background-color: white;
 } 
 
@@ -133,7 +133,7 @@
     }
 }
 
-.destinations, .flexContainer2{
+article{
     border-bottom: 5px solid $duskblue;;
 }
 
@@ -195,6 +195,15 @@
         i {
             margin-right: 10px;
         }
+    }
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    span {
+        display: block;
     }
 }
 
