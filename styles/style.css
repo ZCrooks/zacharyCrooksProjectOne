@@ -343,18 +343,18 @@ a.selected {
 }
 
 .popup {
-  background-image: url(./../../../designs/harper-home-popup.jpg);
+  background-image: url(../assets/harper-home-popup.jpg);
   background-size: cover;
   width: 600px;
   height: 450px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   padding: 30px;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   border-radius: 12px;
-  border: 4px solid #68b0c1;
+  border: 4px solid #227284;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,6 +363,7 @@ a.selected {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 999;
 }
 .popup h3, .popup p {
   color: #171717;

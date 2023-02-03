@@ -1,18 +1,19 @@
 .popup {
-    background-image: url(./../../../designs/harper-home-popup.jpg);
+    background-image: url(../assets/harper-home-popup.jpg);
     background-size: cover;
     width: 600px;
     height: 450px;
     transform: translate(-50%,-50%);
     padding: 30px;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     border-radius: 12px;
-    border: 4px solid $quinary;
+    border: 4px solid $duskblue;
     text-align: left;
     display: flex;
     flex-direction: column;
+    z-index: 999;
     h3, p {
         color: $primary;
     }
