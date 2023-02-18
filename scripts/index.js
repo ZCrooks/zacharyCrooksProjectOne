@@ -28,9 +28,8 @@ function changeColor () {
     timer ();  
 } 
 
-
 function timer () {
-    return setTimeout(changeColor, 2000)
+    return setTimeout(changeColor, 1500);
 }
 
 timer();
