@@ -1,0 +1,46 @@
+.popup {
+    background-image: url(../assets/harper-home-popup.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 12px;
+    border: 4px solid $duskblue;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    h3, p {
+        color: $primary;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    
+        .submit {
+            border-radius: 10px;
+            background-color: $quaternary;
+            padding-top: 10px;
+        }
+        input {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+    }
+    .close {
+        background-color: transparent;
+        margin: 0 0 20px auto;
+        border: none;
+        outline: none;
+        font-size: 40px;
+        width: 5%;
+    }
+
+
+}
